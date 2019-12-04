@@ -16,6 +16,11 @@
 		3052E8862010600D00F6F30B /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8852010600D00F6F30B /* Converter.swift */; };
 		3052E8882010950800F6F30B /* GameDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8872010950800F6F30B /* GameDoneViewController.swift */; };
 		30833EE42014681A000488C0 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30833EE32014681A000488C0 /* Shuffle.swift */; };
+		A55F69C1239846F400D46DE2 /* Numero in Frameworks */ = {isa = PBXBuildFile; fileRef = A55F69C0239846F400D46DE2 /* Numero */; };
+		A55F69C2239846FF00D46DE2 /* GameDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8872010950800F6F30B /* GameDoneViewController.swift */; };
+		A55F69C32398470F00D46DE2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E883201041FA00F6F30B /* Game.swift */; };
+		A55F69C42398471200D46DE2 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30833EE32014681A000488C0 /* Shuffle.swift */; };
+		A55F69C52398471500D46DE2 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8852010600D00F6F30B /* Converter.swift */; };
 		CDCB234722178A39003C94B1 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB234622178A39003C94B1 /* ConverterTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +48,7 @@
 		3052E8852010600D00F6F30B /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		3052E8872010950800F6F30B /* GameDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDoneViewController.swift; sourceTree = "<group>"; };
 		30833EE32014681A000488C0 /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
+		A55F69C0239846F400D46DE2 /* Numero */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Numero; sourceTree = "<group>"; };
 		CDCB234622178A39003C94B1 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55F69C1239846F400D46DE2 /* Numero in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +77,7 @@
 				3052E854201040F500F6F30B /* Numero */,
 				3052E869201040F500F6F30B /* NumeroTests */,
 				3052E853201040F500F6F30B /* Products */,
+				A55F69BF239846F400D46DE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +114,14 @@
 				CDCB234622178A39003C94B1 /* ConverterTests.swift */,
 			);
 			path = NumeroTests;
+			sourceTree = "<group>";
+		};
+		A55F69BF239846F400D46DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A55F69C0239846F400D46DE2 /* Numero */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +180,6 @@
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 3052E851201040F500F6F30B;
 					};
 				};
 			};
@@ -225,7 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55F69C2239846FF00D46DE2 /* GameDoneViewController.swift in Sources */,
+				A55F69C42398471200D46DE2 /* Shuffle.swift in Sources */,
+				A55F69C32398470F00D46DE2 /* Game.swift in Sources */,
 				CDCB234722178A39003C94B1 /* ConverterTests.swift in Sources */,
+				A55F69C52398471500D46DE2 /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,10 +387,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UY3JE2JN3T;
 				INFOPLIST_FILE = Numero/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Numero;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beida.Numero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -385,10 +404,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UY3JE2JN3T;
 				INFOPLIST_FILE = Numero/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Numero;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beida.Numero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -400,11 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UY3JE2JN3T;
 				INFOPLIST_FILE = NumeroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.NumeroTests;
@@ -413,7 +432,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numero.app/Numero";
 			};
 			name = Debug;
 		};
@@ -421,11 +439,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UY3JE2JN3T;
 				INFOPLIST_FILE = NumeroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.NumeroTests;
@@ -433,7 +451,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numero.app/Numero";
 			};
 			name = Release;
 		};
